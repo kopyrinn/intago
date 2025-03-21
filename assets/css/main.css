@@ -727,6 +727,13 @@ section,
   font-weight: 700;
   position: relative;
 }
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+  }
+}
 
 .section-title h2:before,
 .section-title h2:after {
@@ -741,8 +748,20 @@ section,
   margin: 0 15px 10px 0;
 }
 
+@media (max-width: 768px) {
+  .section-title h2:before {
+      margin: 0px 15px 3px 0px;
+  }
+}
+
 .section-title h2:after {
   margin: 0 0 10px 15px;
+}
+
+@media (max-width: 768px) {
+  .section-title h2:after {
+      margin: 0px 0px 3px 15px;
+  }
 }
 
 .section-title p {
@@ -858,6 +877,11 @@ section,
   .charact_title {
 
   }
+
+  .charactp p {
+    font-size: 13px;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -973,6 +997,18 @@ section,
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .icon-box {
+    text-align: center;
+  }
+  .about .icon-box h3 {
+
+    font-size: 15px;
+    font-weight: 700;
+  }  
+
 }
 
 .about .icon-box p {
