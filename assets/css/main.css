@@ -774,7 +774,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 50%);
+  background: color-mix(in srgb, var(--background-color), transparent 30%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -785,7 +785,7 @@ section,
   z-index: 3;
 }
 
-.hero h2 {
+.hero h1 {
   margin: 0;
   font-size: 44px;
   font-weight: 700;
@@ -833,13 +833,30 @@ section,
   background-color: color-mix(in srgb, var(--accent-color), transparent 10%);
 }
 
+.charact_title {
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 32px;
+    font-size: 20px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
   }
 
   .hero p {
     font-size: 18px;
+  }
+
+  .product_title {
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .charact_title {
+
   }
 }
 
